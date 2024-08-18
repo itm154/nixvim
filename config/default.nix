@@ -29,6 +29,7 @@
 
     # Utility
     ./plugins/utils/friendly-snippets.nix
+    ./plugins/utils/luasnip.nix
     ./plugins/utils/mini.nix
     ./plugins/utils/telescope.nix
     ./plugins/utils/whichkey.nix

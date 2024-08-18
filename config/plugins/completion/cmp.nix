@@ -44,6 +44,10 @@
           "<C-k>" = "cmp.mapping.select_prev_item()";
         };
 
+        snippet = {
+          expand = "luasnip";
+        };
+
         sources = [
           {name = "nvim_lsp";}
           {name = "emoji";}
