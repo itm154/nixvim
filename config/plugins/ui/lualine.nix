@@ -3,7 +3,6 @@
     lualine-nvim
   ];
 
-  # TODO Get a better configuration than this
   extraConfigLuaPre = ''
     require('lualine').setup {
       options = {

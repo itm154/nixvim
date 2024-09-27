@@ -1,5 +1,8 @@
-{pkgs, ...}: {
-  extraPlugins = with pkgs.vimPlugins; [
-    nvim-web-devicons
-  ];
+{
+  plugins.web-devicons = {
+    enable = true;
+    settings = {
+      color_icons = true;
+    };
+  };
 }

@@ -8,8 +8,9 @@
       servers = {
         lua-ls.enable = true;
         nil-ls.enable = true;
-        # Add more servers here
+        # NOTE: Add more servers here according to https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md
         marksman.enable = true;
+        jdt-language-server.enable = true;
       };
 
       keymaps = {
