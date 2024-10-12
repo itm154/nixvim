@@ -6,11 +6,20 @@
       inlayHints = true;
 
       servers = {
+        # NOTE: Add more servers here according to https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md
+
+        # Misc
+        marksman.enable = true;
+
+        # Web
+        cssls.enable = true;
+        html.enable = true;
+
+        # General programming languages
+        jdtls.enable = true;
+        clangd.enable = true;
         lua_ls.enable = true;
         nil_ls.enable = true;
-        # NOTE: Add more servers here according to https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md
-        marksman.enable = true;
-        jdtls.enable = true;
       };
 
       keymaps = {
