@@ -20,7 +20,8 @@
         jdtls.enable = true;
         clangd.enable = true;
         lua_ls.enable = true;
-        nil_ls.enable = true;
+        # nil_ls.enable = true;
+        nixd.enable = true;
       };
 
       keymaps = {
