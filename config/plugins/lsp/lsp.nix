@@ -16,6 +16,7 @@
         html.enable = true;
         emmet_ls.enable = true;
         denols.enable = true;
+        vls.enable = true;
 
         # General programming languages
         jdtls.enable = true;
