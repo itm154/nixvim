@@ -11,16 +11,10 @@
         # Misc
         marksman.enable = true;
 
-        # Web
-        cssls.enable = true;
-        html.enable = true;
-        emmet_ls.enable = true;
-
         # General programming languages
         jdtls.enable = true;
         clangd.enable = true;
         lua_ls.enable = true;
-        # nil_ls.enable = true;
         nixd.enable = true;
       };
 
