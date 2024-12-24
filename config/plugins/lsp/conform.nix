@@ -124,6 +124,7 @@
             "shellharden"
             "shfmt"
           ];
+          c = ["clang-format"];
           json = ["jq"];
           "_" = ["trim_whitespace"];
         };
@@ -155,6 +156,9 @@
           };
           shellharden = {
             command = "${lib.getExe pkgs.shellharden}";
+          };
+          clang = {
+            command = "${lib.getExe' pkgs.clang-tools "clang-format"}";
           };
           #yamlfmt = {
           #  command = "${lib.getExe pkgs.yamlfmt}";
