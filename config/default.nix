@@ -15,6 +15,7 @@
     # Editor
     ./plugins/editor/colorizer.nix
     ./plugins/editor/indent-blankline.nix
+    ./plugins/editor/markview.nix
     ./plugins/editor/illuminate.nix
     ./plugins/editor/nvim-tree.nix
     ./plugins/editor/todo-comments.nix
